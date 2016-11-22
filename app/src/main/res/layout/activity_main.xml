@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@android:color/black">
+
+    <com.vgaw.androidtest.CapOrRecView
+        android:id="@+id/iv_camera"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        app:drawPic="@mipmap/camera"
+        app:drawColor="@android:color/transparent"
+        app:isAction="false"/>
+
+    <com.vgaw.androidtest.CapOrRecView
+        android:id="@+id/iv_record"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:drawPic="@mipmap/video"
+        app:drawColor="@android:color/holo_red_light"
+        app:isAction="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fuc"
+        android:textColor="#55ff0000"/>
+</RelativeLayout>

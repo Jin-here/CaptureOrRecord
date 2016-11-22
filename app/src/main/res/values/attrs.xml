@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CapOrRecView">
+        <attr name="drawPic" format="reference|color"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="drawMargin" format="dimension"/>
+        <attr name="drawColor" format="color"/>
+        <attr name="isAction" format="boolean"/>
+    </declare-styleable>
+</resources>
